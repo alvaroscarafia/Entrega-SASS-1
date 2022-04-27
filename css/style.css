@@ -27,11 +27,6 @@ nav{
     border-radius: 10%;
 }
 
-                                                    /* SECCION A */
-
-.seccionA{
-    padding: 4rem;
-}
                                                     /* FOOTER   */
 .iconsF{
     padding-top: 4rem;
@@ -49,7 +44,6 @@ nav{
 .card:hover{
     transform: scale(120%);
     transition: all 2s;
-
 }
 
 

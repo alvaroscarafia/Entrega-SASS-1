@@ -1,3 +1,10 @@
+/* VARIABLES */
+/* MAPA DE BG COLORS */
+/* mixin */
+.seccionA {
+  padding: 4rem;
+}
+
 /* FOOTER */
 footer {
   background-image: url(/Multimedia/img/fondo1.png);
@@ -12,9 +19,15 @@ footer p {
 }
 
 /* TITTLE-SUBT */
+h1 {
+  font-size: 3rem;
+  font-family: monospace;
+  text-decoration: underline;
+}
+
 h2 {
   padding-bottom: 4rem;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: monospace;
   text-decoration: underline;
 }
@@ -24,21 +37,21 @@ h2:hover {
 }
 
 /* SOBRE NOSOTROS */
-.bio {
+.bio, .howww {
+  padding: 4rem;
   margin-top: 1rem;
   font-family: fontuno;
-  padding: 5rem;
   border: 1rem double black;
   border-radius: 5%;
   font-size: 20px;
 }
-.bio:hover {
-  background-color: rgb(221, 219, 219);
+.bio:hover, .howww:hover {
+  background-color: rgb(209, 209, 209);
   transition: all 2s;
 }
 
 @media screen and (max-width: 1200px) {
-  .bio {
+  .bio, .howww {
     padding: 1rem;
     font-size: 13px;
   }
@@ -51,5 +64,6 @@ h2:hover {
     text-align: center;
   }
 }
+/* EXTEND */
 
 /*# sourceMappingURL=style2.css.map */
